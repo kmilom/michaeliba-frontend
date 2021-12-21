@@ -1,0 +1,14 @@
+1. Iniciado proyecto de react:
+    npx create-react-app <name>
+
+2. Sincronización con el repositorio creado con anterioridad:
+    git init
+    git add .
+    git commit -m "..."
+    git remote add origin <link.git>
+    git push -u origin master
+
+3. Instalación de librerías:
+    bootstrap
+    axios
+    react-router-dom
