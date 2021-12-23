@@ -1,10 +1,16 @@
+import { Container } from 'react-bootstrap';
 import './App.css';
+import PageTop from './components/PageTop';
+import Header from "./components/Header";
+import Services from "./components/Services";
 
 function App() {
   return (
-    <div className="App">
-      test
-    </div>
+    <Container fluid>
+      <Header />
+      <PageTop />
+      <Services />
+    </Container>
   );
 }
 
