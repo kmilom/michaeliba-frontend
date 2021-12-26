@@ -4,10 +4,10 @@ import { NavbarWrapper } from "./styles/NavbarStyles";
 function Navbar({ open }) {
   return (
     <NavbarWrapper open={open}>
-      <a href="#page-top">Link</a>
-      <a href="#services">Link</a>
-      <a href="#">Link</a>
-      <a href="#">Link</a>
+      <a href="#about">Sobre nosotros</a>
+      <a href="#services">Servicios</a>
+      <a href="#benefits">Beneficios</a>
+      <a href="#contact">Contáctanos</a>
     </NavbarWrapper>
   );
 }

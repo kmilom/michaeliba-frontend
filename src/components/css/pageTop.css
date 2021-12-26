@@ -1,0 +1,21 @@
+#page-top{
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.2)
+      ), url("../assets/img/backgrounds/bg-pagetop.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Arial;
+    color:white;
+    height: 100%;
+    width: 100%;
+}
+
+#masthead{
+    font-size: 330%;   
+}
+
+#mastbody{
+    font-size: 150%;
+}
+
